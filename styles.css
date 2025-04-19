@@ -1,0 +1,144 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  }
+  
+  .navbar h1 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #555;
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #2c3e50;
+  }
+  
+  .hero {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: linear-gradient(to bottom, #ffffff, #f9f9f9);
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .highlight {
+    color: #0077cc;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  #talkBtn {
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  #talkBtn:hover {
+    background-color: #005fa3;
+  }
+  
+  #chatbox {
+    margin-top: 2rem;
+    max-width: 600px;
+    margin-inline: auto;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  #chatlog {
+    max-height: 250px;
+    overflow-y: auto;
+    padding-bottom: 1rem;
+  }
+  
+  #chatlog div {
+    margin-bottom: 0.75rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 5px;
+  }
+  
+  .user {
+    background-color: #eef7ff;
+    align-self: flex-end;
+    text-align: right;
+  }
+  
+  .bot {
+    background-color: #f4f4f4;
+    align-self: flex-start;
+    text-align: left;
+  }
+  
+  #userInput {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  section {
+    padding: 3rem 2rem;
+  }
+  
+  .project {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #fdfdfd;
+    border-left: 4px solid #0077cc;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #fafafa;
+    border-top: 1px solid #eee;
+    font-size: 0.9rem;
+  }
+  
