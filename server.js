@@ -154,7 +154,7 @@ app.post("/api/chat", async (req, res) => {
       ${context ? context + "\n\n" : ""}
       User's question: ${userMessage}
       
-      If the question cannot be answered based on Atul's documents, simply respond based on your general knowledge about product management, podcasting, or leadership.
+      If the question cannot be answered based on Atul's documents, simply respond based on your general knowledge about product management, computer science engineering, podcasting, or leadership.
     `;
     
     console.log("Sending request to Gemini API...");
@@ -212,7 +212,7 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 5000
 
 // Initialize and start the server
 async function startServer() {

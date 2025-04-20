@@ -598,8 +598,9 @@ h1, h2, h3, h4, h5 {
 
 /* ============= CONTACT SECTION ============= */
 .contact-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 
@@ -610,6 +611,8 @@ h1, h2, h3, h4, h5 {
   transition: var(--transition-smooth);
   box-shadow: var(--shadow-sm);
   border: 1px solid rgba(12, 231, 250, 0.1);
+  flex: 1 1 300px; /* Responsive width */
+  max-width: 350px;
 }
 
 .contact-link {
@@ -644,6 +647,7 @@ h1, h2, h3, h4, h5 {
 .contact-card:hover i {
   transform: scale(1.2);
 }
+
 
 /* ============= FOOTER ============= */
 footer {
