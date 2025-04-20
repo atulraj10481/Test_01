@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atul Raj | Product Manager Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Particle Background -->
+  <div id="particles-js"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <h1 class="logo">Atul<span class="highlight">Raj</span></h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#role-models">Role Models</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="about">
+    <div class="hero-content">
+      <div class="hero-image">
+        <img src="Passport_Photograph.jpg" alt="Atul Raj" class="profile-pic">
+        <div class="glow"></div>
+      </div>
+      <div class="hero-text">
+        <h2>Hi, I'm <span class="highlight">Atul Raj</span></h2>
+        <p class="typewriter">Aspiring Product Manager | Podcast Host | Leader</p>
+        <div class="cta-buttons">
+          <button id="talkBtn" class="glow-button">Chat With Me</button>
+          <a href="#contact" class="outline-button">Get In Touch</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Chat Interface -->
+    <div id="chatbox" class="hidden">
+      <div class="chat-header">
+        <h3>Ask Me Anything</h3>
+        <button id="closeChat"><i class="fas fa-times"></i></button>
+      </div>
+      <div id="chatlog"></div>
+      <div class="chat-input">
+        <input type="text" id="userInput" placeholder="Type your message..." />
+        <button id="sendBtn"><i class="fas fa-paper-plane"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section-container">
+    <div class="section-header">
+      <h2><span class="highlight"><i class="fas fa-lightbulb"></i></span> Skills</h2>
+      <div class="underline"></div>
+    </div>
+    
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-chess"></i></div>
+        <h3>Product Strategy</h3>
+        <p>Developing vision and roadmaps that align with business goals</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-users"></i></div>
+        <h3>User Research</h3>
+        <p>Creating personas and journey maps based on qualitative research</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-tasks"></i></div>
+        <h3>Agile & Scrum</h3>
+        <p>Leading sprints and facilitating cross-functional team collaboration</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+        <h3>Data Analysis</h3>
+        <p>Translating metrics into actionable product improvements</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-pencil-ruler"></i></div>
+        <h3>Wireframing</h3>
+        <p>Creating user-focused design prototypes with intuitive flows</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-users-cog"></i></div>
+        <h3>Leadership</h3>
+        <p>Motivating teams and managing stakeholder expectations</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-microphone"></i></div>
+        <h3>Podcasting</h3>
+        <p>Sharing insights through compelling tech conversations</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-comment-dots"></i></div>
+        <h3>Communication</h3>
+        <p>Translating technical concepts for diverse audiences</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section-container">
+    <div class="section-header">
+      <h2><span class="highlight"><i class="fas fa-briefcase"></i></span> Experience</h2>
+      <div class="underline"></div>
+    </div>
+    
+    <div class="timeline">
+      <div class="experience-card">
+        <div class="exp-date">2022 - Present</div>
+        <div class="exp-content">
+          <h3>Podcast Host - "TechTalks with Atul Raj"</h3>
+          <p>Host and produce weekly episodes discussing emerging tech trends and product management insights with industry leaders. Growing audience of over 5,000 monthly listeners.</p>
+          <div class="exp-tags">
+            <span>Content Creation</span>
+            <span>Industry Research</span>
+            <span>Public Speaking</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="experience-card">
+        <div class="exp-date">2020 - 2021</div>
+        <div class="exp-content">
+          <h3>Student Council President - XYZ University</h3>
+          <p>Led a team of 15 to organize campus events and initiatives, enhancing student engagement by 30%. Managed a budget of $50,000 and implemented a digital feedback system.</p>
+          <div class="exp-tags">
+            <span>Leadership</span>
+            <span>Event Management</span>
+            <span>Budget Planning</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Role Models Section -->
+  <section id="role-models" class="section-container">
+    <div class="section-header">
+      <h2><span class="highlight"><i class="fas fa-star"></i></span> Role Models</h2>
+      <div class="underline"></div>
+    </div>
+    
+    <div class="role-models-container">
+      <div class="role-model-card">
+        <div class="role-model-content">
+          <h3>Dr. A.P.J. Abdul Kalam</h3>
+          <div class="quote">"Dreams are not what you see in your sleep, they are the things that don't let you sleep."</div>
+          <p>Inspired by his vision, humility, and dedication to innovation and education. His journey from humble beginnings to becoming India's "Missile Man" and President demonstrates how technical expertise combined with empathetic leadership can transform a nation.</p>
+        </div>
+      </div>
+      
+      <div class="role-model-card">
+        <div class="role-model-content">
+          <h3>Lord Krishna</h3>
+          <div class="quote">"It is better to live your own destiny imperfectly than to live an imitation of somebody else's life with perfection."</div>
+          <p>Embodying strategic thinking, leadership, and the art of communication. Krishna's teachings in the Bhagavad Gita about finding one's purpose, making decisions under pressure, and maintaining ethical principles resonate deeply with modern product management challenges.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section-container">
+    <div class="section-header">
+      <h2><span class="highlight"><i class="fas fa-envelope"></i></span> Contact</h2>
+      <div class="underline"></div>
+    </div>
+    
+    <div class="contact-container">
+      <div class="contact-card">
+        <a href="mailto:rajatul.official@gmail.com" class="contact-link">
+          <i class="fas fa-envelope"></i>
+          <span>rajatul.official@gmail.com</span>
+        </a>
+      </div>
+      
+      <div class="contact-card">
+        <a href="https://www.linkedin.com/in/atul-raj-095322229/" target="_blank" class="contact-link">
+          <i class="fab fa-linkedin"></i>
+          <span>LinkedIn Profile</span>
+        </a>
+      </div>
+      
+      <div class="contact-card">
+        <a href="https://instagram.com/hearfromatul" target="_blank" class="contact-link">
+          <i class="fab fa-instagram"></i>
+          <span>@hearfromatul</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Atul Raj. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#role-models">Role Models</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
