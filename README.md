@@ -11,27 +11,18 @@ This is a personal developer portfolio built using **Node.js** and **Express**, 
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
-
-```bash
+1. Clone the Repository
 git clone https://github.com/yourusername/portfolio-gemini-chatbot.git
 cd portfolio-gemini-chatbot
+
 2. Install Dependencies
-bash
-Copy
-Edit
 npm install
+
 3. Setup Environment Variables
 Create a .env file in the root directory:
-
-env
-Copy
-Edit
 API_KEY=your_gemini_api_key
+
 4. Run the Server
-bash
-Copy
-Edit
 node server.js
 Visit: http://localhost:4000
 
